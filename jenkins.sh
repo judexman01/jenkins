@@ -7,6 +7,8 @@ sudo apt-get install openjdk-11-jdk -y
 
 
 sudo ufw allow 8080
+sudo ufw allow 80
+sudo ufw allow 22
 sudo ufw --force enable
 echo "y" | sudo ufw enable
 echo "install Jenkins"
