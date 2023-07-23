@@ -8,8 +8,6 @@ sudo apt-get install openjdk-11-jdk -y
 
 sudo ufw allow 8080
 sudo ufw --force enable
-echo "y" | sudo ufw enable
-
 echo "install Jenkins"
 sudo curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo tee \
   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
